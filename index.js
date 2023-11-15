@@ -135,7 +135,8 @@
   *  });
 *  } else {
  *   document.body.classList.add('fullscreen-disabled');
- */ }
+ * } 
+    */
 
   // Set handler for scene list toggle.
   sceneListToggleElement.addEventListener('click', toggleSceneList);
