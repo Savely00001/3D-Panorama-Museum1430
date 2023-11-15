@@ -274,7 +274,11 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   margin-left: 0;
   -webkit-transition: margin-left 0.5s ease-in-out;
   transition: margin-left 0.5s ease-in-out;
-  background-color: black;
+   background: #2ca8ce;
+background: -moz-radial-gradient(top left, #2ca8ce, #007159);
+background: -webkit-linear-gradient(top left, #2ca8ce, #007159);
+background: -o-linear-gradient(top left, #2ca8ce, #007159);
+background: -ms-linear-gradient(top left, #2ca8ce, #007159);
   border-radius: 6px;
 }
 
@@ -284,7 +288,11 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 
 #sceneList .scenes {
   width: 100%;
-  background-color: black;
+  background: #2ca8ce;
+background: -moz-radial-gradient(top left, #2ca8ce, #007159);
+background: -webkit-linear-gradient(top left, #2ca8ce, #007159);
+background: -o-linear-gradient(top left, #2ca8ce, #007159);
+background: -ms-linear-gradient(top left, #2ca8ce, #007159);
   border-radius: 6px;
 }
 
