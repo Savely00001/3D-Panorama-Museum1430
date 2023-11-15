@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-agc_20231115_134533754photosphere",
-      "name": "AGC_20231115_134533754.PHOTOSPHERE",
+      "name": "Начало музея",
       "levels": [
         {
           "tileSize": 256,
@@ -53,7 +53,7 @@ var APP_DATA = {
     },
     {
       "id": "1-agc_20231115_135212704photosphere",
-      "name": "AGC_20231115_135212704.PHOTOSPHERE",
+      "name": "Основная часть музея",
       "levels": [
         {
           "tileSize": 256,
@@ -97,7 +97,7 @@ var APP_DATA = {
     },
     {
       "id": "2-agc_20231115_140158462photosphere",
-      "name": "AGC_20231115_140158462.PHOTOSPHERE",
+      "name": "Выход из музея",
       "levels": [
         {
           "tileSize": 256,
@@ -141,7 +141,7 @@ var APP_DATA = {
     },
     {
       "id": "3-agc_20231115_140532033photosphere",
-      "name": "AGC_20231115_140532033.PHOTOSPHERE",
+      "name": "Дальняя часть музея",
       "levels": [
         {
           "tileSize": 256,
@@ -185,7 +185,7 @@ var APP_DATA = {
     },
     {
       "id": "4-agc_20231115_140820828photosphere",
-      "name": "AGC_20231115_140820828.PHOTOSPHERE",
+      "name": "Основная часть музея",
       "levels": [
         {
           "tileSize": 256,
@@ -236,7 +236,7 @@ var APP_DATA = {
     },
     {
       "id": "5-agc_20231115_141214231photosphere",
-      "name": "AGC_20231115_141214231.PHOTOSPHERE",
+      "name": "Конец музея",
       "levels": [
         {
           "tileSize": 256,
