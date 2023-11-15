@@ -274,11 +274,11 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   margin-left: 0;
   -webkit-transition: margin-left 0.5s ease-in-out;
   transition: margin-left 0.5s ease-in-out;
-   background: #2ca8ce;
-background: -moz-radial-gradient(top left, #2ca8ce, #007159);
-background: -webkit-linear-gradient(top left, #2ca8ce, #007159);
-background: -o-linear-gradient(top left, #2ca8ce, #007159);
-background: -ms-linear-gradient(top left, #2ca8ce, #007159);
+ background: #833204;
+background: -moz-radial-gradient(top left, #833204, #ffbb5c);
+background: -webkit-linear-gradient(top left, #833204, #ffbb5c);
+background: -o-linear-gradient(top left, #833204, #ffbb5c);
+background: -ms-linear-gradient(top left, #833204, #ffbb5c);
   border-radius: 6px;
 }
 
@@ -288,11 +288,12 @@ background: -ms-linear-gradient(top left, #2ca8ce, #007159);
 
 #sceneList .scenes {
   width: 100%;
-  background: #2ca8ce;
-background: -moz-radial-gradient(top left, #2ca8ce, #007159);
-background: -webkit-linear-gradient(top left, #2ca8ce, #007159);
-background: -o-linear-gradient(top left, #2ca8ce, #007159);
-background: -ms-linear-gradient(top left, #2ca8ce, #007159);
+  border-bottom: 2px solid #fff;
+ background: #833204;
+background: -moz-radial-gradient(top left, #833204, #ffbb5c);
+background: -webkit-linear-gradient(top left, #833204, #ffbb5c);
+background: -o-linear-gradient(top left, #833204, #ffbb5c);
+background: -ms-linear-gradient(top left, #833204, #ffbb5c);
   border-radius: 6px;
 }
 
