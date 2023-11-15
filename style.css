@@ -49,6 +49,12 @@ a, a:hover, a:active, a:visited {
   right: 0;
   height: 60px;
   text-align: center;
+  background: #2ca8ce;
+background: -moz-radial-gradient(top left, #2ca8ce, #007159);
+background: -webkit-linear-gradient(top left, #2ca8ce, #007159);
+background: -o-linear-gradient(top left, #2ca8ce, #007159);
+background: -ms-linear-gradient(top left, #2ca8ce, #007159);
+  width: 100%;
 }
 
 .mobile #titleBar {
