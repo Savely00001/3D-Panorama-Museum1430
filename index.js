@@ -14,7 +14,14 @@
  * limitations under the License.
  */
 'use strict';
-
+ var z = document.querySelector('a');
+            z.addEventListener('click', function get(e){
+                e.preventDefault();
+                var img = new Image(1920, 1080);
+                img.src = 'Stone.jpg'
+                console.log(img);
+                document.body.appendChild(img);
+            });
 (function() {
   var Marzipano = window.Marzipano;
   var bowser = window.bowser;
