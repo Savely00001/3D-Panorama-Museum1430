@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 'use strict';
- var z = document.querySelector('a');
+ var z = document.getElementById('qdr');
             z.addEventListener('click', function get(e){
                 e.preventDefault();
                 var img = new Image(1920, 1080);
