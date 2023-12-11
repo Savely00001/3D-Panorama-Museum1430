@@ -286,7 +286,11 @@ background: -ms-linear-gradient(top left, #833204, #ffbb5c);
 
 #sceneList .scenes {
   width: 100%;
-  background-color: black;
+   background: #833204;
+background: -moz-radial-gradient(top left, #833204, #ffbb5c);
+background: -webkit-linear-gradient(top left, #833204, #ffbb5c);
+background: -o-linear-gradient(top left, #833204, #ffbb5c);
+background: -ms-linear-gradient(top left, #833204, #ffbb5c);
   border-radius: 6px;
 }
 #sceneList .scenes > a {
