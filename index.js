@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 'use strict';
-/*
-*(function() {
-*  var Marzipano = window.Marzipano;
+
+(function() {
+/*  var Marzipano = window.Marzipano;
 *  var bowser = window.bowser;
  * var screenfull = window.screenfull;
 *  var data = window.APP_DATA;
