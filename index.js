@@ -14,40 +14,40 @@
  * limitations under the License.
  */
 'use strict';
-
-(function() {
-  var Marzipano = window.Marzipano;
-  var bowser = window.bowser;
-  var screenfull = window.screenfull;
-  var data = window.APP_DATA;
-
-  // Grab elements from DOM.
-  var panoElement = document.querySelector('#pano');
-  var sceneNameElement = document.querySelector('#titleBar .sceneName');
-  var sceneListElement = document.querySelector('#sceneList');
-  var sceneElements = document.querySelectorAll('#sceneList .scene');
-  var sceneListToggleElement = document.querySelector('#sceneListToggle');
-  var autorotateToggleElement = document.querySelector('#autorotateToggle');
-  var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
-
-  // Detect desktop or mobile mode.
-  if (window.matchMedia) {
-    var setMode = function() {
-      if (mql.matches) {
-        document.body.classList.remove('desktop');
-        document.body.classList.add('mobile');
-      } else {
-        document.body.classList.remove('mobile');
-        document.body.classList.add('desktop');
-      }
-    };
-    var mql = matchMedia("(max-width: 500px), (max-height: 500px)");
-    setMode();
-    mql.addListener(setMode);
-  } else {
-    document.body.classList.add('desktop');
-  }
-
+/*
+*(function() {
+*  var Marzipano = window.Marzipano;
+*  var bowser = window.bowser;
+ * var screenfull = window.screenfull;
+*  var data = window.APP_DATA;
+*
+*  // Grab elements from DOM.
+*  var panoElement = document.querySelector('#pano');
+*  var sceneNameElement = document.querySelector('#titleBar .sceneName');
+*  var sceneListElement = document.querySelector('#sceneList');
+*  var sceneElements = document.querySelectorAll('#sceneList .scene');
+*  var sceneListToggleElement = document.querySelector('#sceneListToggle');
+*  var autorotateToggleElement = document.querySelector('#autorotateToggle');
+*  var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
+*
+*  // Detect desktop or mobile mode.
+*  if (window.matchMedia) {
+  *  var setMode = function() {
+   *   if (mql.matches) {
+   *     document.body.classList.remove('desktop');
+  *      document.body.classList.add('mobile');
+   *   } else {
+  *      document.body.classList.remove('mobile');
+  *      document.body.classList.add('desktop');
+  *    }
+  *  };
+ *   var mql = matchMedia("(max-width: 500px), (max-height: 500px)");
+ *   setMode();
+ *   mql.addListener(setMode);
+ * } else {
+*    document.body.classList.add('desktop');
+*  }
+*/
   // Detect whether we are on a touch device.
   document.body.classList.add('no-touch');
   window.addEventListener('touchstart', function() {
