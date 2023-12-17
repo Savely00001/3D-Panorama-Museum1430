@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0---",
-      "name": "Выход из школы",
+      "name": "Ближняя часть музея",
       "levels": [
         {
           "tileSize": 256,
@@ -22,16 +22,22 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1414,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 0.10217792044986851,
-        "pitch": -0.1275237680360668,
-        "fov": 1.3744932219742836
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 0.0015089231739704445,
-          "pitch": -0.12168647893775386,
+          "yaw": -1.340070590009109,
+          "pitch": 0.44026359693515005,
+          "rotation": 0,
+          "target": "6---"
+        },
+        {
+          "yaw": 0.5672538874360953,
+          "pitch": 0.41720569738621904,
           "rotation": 0,
           "target": "1---"
         }
@@ -40,7 +46,7 @@ var APP_DATA = {
     },
     {
       "id": "1---",
-      "name": "Вход в музей",
+      "name": "Средняя часть музея",
       "levels": [
         {
           "tileSize": 256,
@@ -68,29 +74,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.09504861058660907,
-          "pitch": 0.3933719012435475,
-          "rotation": 0,
-          "target": "5---"
-        },
-        {
-          "yaw": 1.7687722235787575,
-          "pitch": 0.430343553549303,
-          "rotation": 0,
-          "target": "2---"
-        },
-        {
-          "yaw": -2.323441700512582,
-          "pitch": 0.33533952265000977,
+          "yaw": -1.651447221838005,
+          "pitch": 0.30369762974108205,
           "rotation": 0,
           "target": "0---"
+        },
+        {
+          "yaw": 1.449533698335057,
+          "pitch": 0.39922146581487183,
+          "rotation": 0,
+          "target": "2--"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2---",
-      "name": "Дальняя часть музея",
+      "id": "2--",
+      "name": "Конец музея",
       "levels": [
         {
           "tileSize": 256,
@@ -118,16 +118,10 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.3562087207035418,
-          "pitch": 0.4380111081270641,
+          "yaw": -1.6396929691845727,
+          "pitch": 0.4078674963276647,
           "rotation": 0,
           "target": "1---"
-        },
-        {
-          "yaw": 0.5495888887265963,
-          "pitch": 0.3771139777399739,
-          "rotation": 0,
-          "target": "3---"
         }
       ],
       "infoHotspots": []
@@ -162,14 +156,14 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.653468879561082,
-          "pitch": 0.2995866455685139,
+          "yaw": -2.411238480454223,
+          "pitch": 0.320090297865363,
           "rotation": 0,
-          "target": "2---"
+          "target": "6---"
         },
         {
-          "yaw": 1.4427211382224954,
-          "pitch": 0.3886504420452379,
+          "yaw": 0.6284184920649825,
+          "pitch": 0.36722072909096504,
           "rotation": 0,
           "target": "4--"
         }
@@ -206,24 +200,36 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.620746299062283,
-          "pitch": 0.33850998056423975,
+          "yaw": -0.012500817360988847,
+          "pitch": 0.36700550255851105,
           "rotation": 0,
           "target": "3---"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 3.1221589073005163,
-          "pitch": -0.20866587814560056,
-          "title": "Title",
-          "text": ""
+          "yaw": 3.041085325988341,
+          "pitch": 0.683596320236795,
+          "title": "3D модель",
+          "text": "<a href=\"https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4\">1430 - Download Free 3D model by Mr.HRosenberg (@Mr.HRosenberg) [55de617] (sketchfab.com)</a>"
+        },
+        {
+          "yaw": -2.5951997245879035,
+          "pitch": 0.5167301915228677,
+          "title": "3D модель",
+          "text": "<a href=\"https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4\">1430 - Download Free 3D model by Mr.HRosenberg (@Mr.HRosenberg) [55de617] (sketchfab.com)</a>"
+        },
+        {
+          "yaw": -2.192207198646189,
+          "pitch": 0.17318389545301116,
+          "title": "3D модель",
+          "text": "<a href=\"https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4\">1430 - Download Free 3D model by Mr.HRosenberg (@Mr.HRosenberg) [55de617] (sketchfab.com)</a>"
         }
       ]
     },
     {
       "id": "5---",
-      "name": "Средняя часть музея",
+      "name": "Выход из школы",
       "levels": [
         {
           "tileSize": 256,
@@ -243,31 +249,25 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 2048,
+      "faceSize": 1414,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.01095778181095497,
+        "pitch": -0.04120588069295117,
+        "fov": 1.3744932219742836
       },
       "linkHotspots": [
         {
-          "yaw": -2.4095540488117226,
-          "pitch": 0.3513942038230784,
+          "yaw": 0.00391988784042141,
+          "pitch": -0.11823058288116783,
           "rotation": 0,
-          "target": "1---"
-        },
-        {
-          "yaw": 0.6148972667773105,
-          "pitch": 0.37040703953884346,
-          "rotation": 0,
-          "target": "6--"
+          "target": "6---"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "6--",
-      "name": "Конец музея",
+      "id": "6---",
+      "name": "Вход в музей",
       "levels": [
         {
           "tileSize": 256,
@@ -295,39 +295,32 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.01749317703132114,
-          "pitch": 0.3651560834310992,
+          "yaw": -2.3055533225007174,
+          "pitch": 0.3453493001602048,
           "rotation": 0,
           "target": "5---"
+        },
+        {
+          "yaw": -0.08132374891381033,
+          "pitch": 0.3679244831649271,
+          "rotation": 0,
+          "target": "3---"
+        },
+        {
+          "yaw": 1.746323064917953,
+          "pitch": 0.39041005597968237,
+          "rotation": 0,
+          "target": "0---"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": -2.5914708582321637,
-          "pitch": 0.5224958765727461,
-          "title": "3D модель",
-          "text": "<div class=\"text-content clearfix\" dir=\"auto\" style=\"margin: 0px; word-break: break-word; white-space-collapse: preserve; line-height: 1.3125; text-align: initial; unicode-bidi: plaintext; border-radius: 0.25rem; position: relative; color: rgb(0, 0, 0); font-family: Roboto, -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI&quot;, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);\"><a href=\"https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4\" title=\"https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-entity-link long-word-break-all\" dir=\"auto\" data-entity-type=\"MessageEntityUrl\" style=\"touch-action: manipulation; word-break: break-word; cursor: var(--custom-cursor, pointer); unicode-bidi: plaintext; color: var(--color-links) !important;\" _msttexthash=\"2796495\" _msthash=\"1270\">https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4</a></div><div class=\"WebPage\" data-initial=\"S\" dir=\"auto\" style=\"margin-top: 0.25rem; padding: 0.375rem 0.375rem 0.375rem 0.625rem; font-size: calc(var(--message-text-size, 1rem) - .125rem); line-height: 1.125rem; max-width: 29rem; background-color: var(--accent-background-color); border-radius: 0.25rem; position: relative; overflow: hidden; color: rgb(0, 0, 0); font-family: Roboto, -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI&quot;, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; margin-bottom: 1rem !important;\"><div class=\"WebPage--content\" style=\"position: relative;\"><div class=\"media-inner interactive\" style=\"position: relative; overflow: hidden; margin: -0.3125rem -0.5rem 0.375rem; display: flex; justify-content: center; align-items: center; cursor: var(--custom-cursor, pointer); --border-bottom-left-radius: 0; --border-bottom-right-radius: 0; height: 274px; border-radius: var(--border-radius-messages-small) !important;\"><img class=\"full-media\" alt=\"\" draggable=\"true\" src=\"blob:https://web.telegram.org/7f9fe582-866c-48fa-9171-c107feb9fe5f\" style=\"vertical-align: middle; border-style: none; width: 432px; height: 274px; display: block; object-fit: cover; border-top-left-radius: var(--border-top-left-radius); border-top-right-radius: var(--border-top-right-radius); border-bottom-right-radius: var(--border-bottom-right-radius); border-bottom-left-radius: var(--border-bottom-left-radius);\"></div></div></div>"
-        },
-        {
-          "yaw": -2.1762964465671732,
-          "pitch": 0.15674755407104968,
-          "title": "3D модель",
-          "text": "<div class=\"text-content clearfix\" dir=\"auto\" style=\"margin: 0px; word-break: break-word; white-space-collapse: preserve; line-height: 1.3125; text-align: initial; unicode-bidi: plaintext; border-radius: 0.25rem; position: relative; color: rgb(0, 0, 0); font-family: Roboto, -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI&quot;, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);\"><a href=\"https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4\" title=\"https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-entity-link long-word-break-all\" dir=\"auto\" data-entity-type=\"MessageEntityUrl\" style=\"touch-action: manipulation; word-break: break-word; cursor: var(--custom-cursor, pointer); unicode-bidi: plaintext; color: var(--color-links) !important;\" _msttexthash=\"2796495\" _msthash=\"1573\">https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4</a></div><div class=\"WebPage\" data-initial=\"S\" dir=\"auto\" style=\"margin-top: 0.25rem; padding: 0.375rem 0.375rem 0.375rem 0.625rem; font-size: calc(var(--message-text-size, 1rem) - .125rem); line-height: 1.125rem; max-width: 29rem; background-color: var(--accent-background-color); border-radius: 0.25rem; position: relative; overflow: hidden; color: rgb(0, 0, 0); font-family: Roboto, -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI&quot;, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; margin-bottom: 1rem !important;\"><div class=\"WebPage--content\" style=\"position: relative;\"><div class=\"media-inner interactive\" style=\"position: relative; overflow: hidden; margin: -0.3125rem -0.5rem 0.375rem; display: flex; justify-content: center; align-items: center; cursor: var(--custom-cursor, pointer); --border-bottom-left-radius: 0; --border-bottom-right-radius: 0; height: 274px; border-radius: var(--border-radius-messages-small) !important;\"><img class=\"full-media\" alt=\"\" draggable=\"true\" src=\"blob:https://web.telegram.org/7f9fe582-866c-48fa-9171-c107feb9fe5f\" style=\"vertical-align: middle; border-style: none; width: 432px; height: 274px; display: block; object-fit: cover; border-top-left-radius: var(--border-top-left-radius); border-top-right-radius: var(--border-top-right-radius); border-bottom-right-radius: var(--border-bottom-right-radius); border-bottom-left-radius: var(--border-bottom-left-radius);\"></div></div></div>"
-        },
-        {
-          "yaw": 3.0362387202758665,
-          "pitch": 0.6766594360297056,
-          "title": "3D модель",
-          "text": "<div class=\"text-content clearfix\" dir=\"auto\" style=\"margin: 0px; word-break: break-word; white-space-collapse: preserve; line-height: 1.3125; text-align: initial; unicode-bidi: plaintext; border-radius: 0.25rem; position: relative; color: rgb(0, 0, 0); font-family: Roboto, -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI&quot;, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);\"><a href=\"https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4\" title=\"https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-entity-link long-word-break-all\" dir=\"auto\" data-entity-type=\"MessageEntityUrl\" style=\"touch-action: manipulation; word-break: break-word; cursor: var(--custom-cursor, pointer); unicode-bidi: plaintext; color: var(--color-links) !important;\" _msttexthash=\"2796495\" _msthash=\"1574\">https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4</a></div><div class=\"WebPage\" data-initial=\"S\" dir=\"auto\" style=\"margin-top: 0.25rem; padding: 0.375rem 0.375rem 0.375rem 0.625rem; font-size: calc(var(--message-text-size, 1rem) - .125rem); line-height: 1.125rem; max-width: 29rem; background-color: var(--accent-background-color); border-radius: 0.25rem; position: relative; overflow: hidden; color: rgb(0, 0, 0); font-family: Roboto, -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI&quot;, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; margin-bottom: 1rem !important;\"><div class=\"WebPage--content\" style=\"position: relative;\"><div class=\"media-inner interactive\" style=\"position: relative; overflow: hidden; margin: -0.3125rem -0.5rem 0.375rem; display: flex; justify-content: center; align-items: center; cursor: var(--custom-cursor, pointer); --border-bottom-left-radius: 0; --border-bottom-right-radius: 0; height: 274px; border-radius: var(--border-radius-messages-small) !important;\"><img class=\"full-media\" alt=\"\" draggable=\"true\" src=\"blob:https://web.telegram.org/7f9fe582-866c-48fa-9171-c107feb9fe5f\" style=\"vertical-align: middle; border-style: none; width: 432px; height: 274px; display: block; object-fit: cover; border-top-left-radius: var(--border-top-left-radius); border-top-right-radius: var(--border-top-right-radius); border-bottom-right-radius: var(--border-bottom-right-radius); border-bottom-left-radius: var(--border-bottom-left-radius);\"></div></div></div>"
-        }
-      ]
+      "infoHotspots": []
     }
   ],
   "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": true,
+    "fullscreenButton": false,
     "viewControlButtons": false
   }
 };
