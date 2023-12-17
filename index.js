@@ -28,7 +28,7 @@
   var sceneElements = document.querySelectorAll('#sceneList .scene');
   var sceneListToggleElement = document.querySelector('#sceneListToggle');
   var autorotateToggleElement = document.querySelector('#autorotateToggle');
-//  var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
+  var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
 
   // Detect desktop or mobile mode.
   if (window.matchMedia) {
@@ -47,8 +47,9 @@
   } else {
     document.body.classList.add('desktop');
   }
- // Detect whether we are on a touch device.
- document.body.classList.add('no-touch');
+
+  // Detect whether we are on a touch device.
+  document.body.classList.add('no-touch');
   window.addEventListener('touchstart', function() {
     document.body.classList.remove('no-touch');
     document.body.classList.add('touch');
@@ -120,20 +121,21 @@
   autorotateToggleElement.addEventListener('click', toggleAutorotate);
 
   // Set up fullscreen mode, if supported.
-  //if (screenfull.enabled && data.settings.fullscreenButton) {
-   // document.body.classList.add('fullscreen-enabled');
-   // fullscreenToggleElement.addEventListener('click', function() {
-   //   screenfull.toggle();
-   // });
-    //  if (screenfull.isFullscreen) {
-     //   fullscreenToggleElement.classList.add('enabled');
-    //  } else {
-    //    fullscreenToggleElement.classList.remove('enabled');
-    //  }
-   // });
- // } else {
- //   document.body.classList.add('fullscreen-disabled');
-//  }
+  if (screenfull.enabled && data.settings.fullscreenButton) {
+    document.body.classList.add('fullscreen-enabled');
+    fullscreenToggleElement.addEventListener('click', function() {
+      screenfull.toggle();
+    });
+    screenfull.on('change', function() {
+      if (screenfull.isFullscreen) {
+        fullscreenToggleElement.classList.add('enabled');
+      } else {
+        fullscreenToggleElement.classList.remove('enabled');
+      }
+    });
+  } else {
+    document.body.classList.add('fullscreen-disabled');
+  }
 
   // Set handler for scene list toggle.
   sceneListToggleElement.addEventListener('click', toggleSceneList);
