@@ -316,7 +316,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "3D-Panorama-Museum1430",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
