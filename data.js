@@ -211,19 +211,19 @@ var APP_DATA = {
           "yaw": 3.041085325988341,
           "pitch": 0.683596320236795,
           "title": "3D модель",
-          "text": "<a href=\"https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4\">1430 - Download Free 3D model by Mr.HRosenberg (@Mr.HRosenberg) [55de617] (sketchfab.com)</a>"
+          "text": "<a href=\"https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4\" target=\"_blank\">view a 3D model</a>"
         },
         {
           "yaw": -2.5951997245879035,
           "pitch": 0.5167301915228677,
           "title": "3D модель",
-          "text": "<a href=\"https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4\">1430 - Download Free 3D model by Mr.HRosenberg (@Mr.HRosenberg) [55de617] (sketchfab.com)</a>"
+          "text": "<a href=\"https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4\" target=\"_blank\">view a 3D model</a>"
         },
         {
           "yaw": -2.192207198646189,
           "pitch": 0.17318389545301116,
           "title": "3D модель",
-          "text": "<a href=\"https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4\">1430 - Download Free 3D model by Mr.HRosenberg (@Mr.HRosenberg) [55de617] (sketchfab.com)</a>"
+          "text": "<a href=\"https://sketchfab.com/3d-models/1430-55de61715dec42ec9310dcfb5d836ca4\" target=\"_blank\">view a 3D model</a>"
         }
       ]
     },
