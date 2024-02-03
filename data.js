@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-sgcam_20240131_140351953photosphere",
-      "name": "SGCAM_20240131_140351953.PHOTOSPHERE",
+      "name": "Ракета",
       "levels": [
         {
           "tileSize": 256,
@@ -134,7 +134,7 @@ var APP_DATA = {
     },
     {
       "id": "3-sgcam_20240131_124345894photosphere",
-      "name": "SGCAM_20240131_124345894.PHOTOSPHERE",
+      "name": "Витрина_1(кирпич)",
       "levels": [
         {
           "tileSize": 256,
@@ -185,7 +185,7 @@ var APP_DATA = {
     },
     {
       "id": "4-sgcam_20240131_124842314photosphere",
-      "name": "SGCAM_20240131_124842314.PHOTOSPHERE",
+      "name": "Витрина_2",
       "levels": [
         {
           "tileSize": 256,
@@ -229,7 +229,7 @@ var APP_DATA = {
     },
     {
       "id": "5-sgcam_20240131_125217970photosphere",
-      "name": "SGCAM_20240131_125217970.PHOTOSPHERE",
+      "name": "Витрина_3(триумф)",
       "levels": [
         {
           "tileSize": 256,
@@ -280,7 +280,7 @@ var APP_DATA = {
     },
     {
       "id": "6-sgcam_20240131_125832891photosphere",
-      "name": "SGCAM_20240131_125832891.PHOTOSPHERE",
+      "name": "Витрина_4",
       "levels": [
         {
           "tileSize": 256,
@@ -324,7 +324,7 @@ var APP_DATA = {
     },
     {
       "id": "7-sgcam_20240131_130308949photosphere",
-      "name": "SGCAM_20240131_130308949.PHOTOSPHERE",
+      "name": "Витрина_5",
       "levels": [
         {
           "tileSize": 256,
@@ -368,7 +368,7 @@ var APP_DATA = {
     },
     {
       "id": "8-sgcam_20240131_131654112photosphere",
-      "name": "SGCAM_20240131_131654112.PHOTOSPHERE",
+      "name": "Витрина_6",
       "levels": [
         {
           "tileSize": 256,
@@ -419,7 +419,7 @@ var APP_DATA = {
     },
     {
       "id": "9-sgcam_20240131_132045231photosphere",
-      "name": "SGCAM_20240131_132045231.PHOTOSPHERE",
+      "name": "Обломок",
       "levels": [
         {
           "tileSize": 256,
@@ -470,7 +470,7 @@ var APP_DATA = {
     },
     {
       "id": "10-sgcam_20240131_132700253photosphere",
-      "name": "SGCAM_20240131_132700253.PHOTOSPHERE",
+      "name": "Виртина_7(В-1000)",
       "levels": [
         {
           "tileSize": 256,
@@ -527,7 +527,7 @@ var APP_DATA = {
     },
     {
       "id": "11-sgcam_20240131_133156557photosphere",
-      "name": "SGCAM_20240131_133156557.PHOTOSPHERE",
+      "name": "Витрина_8(картина Цукова)",
       "levels": [
         {
           "tileSize": 256,
@@ -578,7 +578,7 @@ var APP_DATA = {
     },
     {
       "id": "12-sgcam_20240131_133526627photosphere",
-      "name": "SGCAM_20240131_133526627.PHOTOSPHERE",
+      "name": "Витрина_9(ключ)",
       "levels": [
         {
           "tileSize": 256,
@@ -629,7 +629,7 @@ var APP_DATA = {
     },
     {
       "id": "13-sgcam_20240131_133939666photosphere",
-      "name": "SGCAM_20240131_133939666.PHOTOSPHERE",
+      "name": "Витрина_10(Дон 2Н)",
       "levels": [
         {
           "tileSize": 256,
@@ -680,7 +680,7 @@ var APP_DATA = {
     },
     {
       "id": "14-sgcam_20240131_134255359photosphere",
-      "name": "SGCAM_20240131_134255359.PHOTOSPHERE",
+      "name": "Витрина_11(китель)",
       "levels": [
         {
           "tileSize": 256,
