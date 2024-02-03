@@ -730,7 +730,7 @@ var APP_DATA = {
       ]
     }
   ],
-  "name": "Project Title",
+  "name": "3D-Tour-Museum1430",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
