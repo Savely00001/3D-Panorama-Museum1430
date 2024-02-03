@@ -79,7 +79,11 @@ body.multiple-scenes.mobile #titleBar {
   height: 100%;
   line-height: 60px;
   padding: 5px;  
-  background: linear-gradient(0deg, rgba(0,0,0,0) 1%, rgba(0,0,0, 0.28) 100%);
+  background: #d8ae06;
+background: -moz-radial-gradient(top left, #d8ae06, #ffbb5c);
+background: -webkit-linear-gradient(top left, #d8ae06, #ffbb5c);
+background: -o-linear-gradient(top left, #d8ae06, #ffbb5c);
+background: -ms-linear-gradient(top left, #d8ae06, #ffbb5c);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
