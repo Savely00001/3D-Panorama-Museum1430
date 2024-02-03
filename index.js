@@ -28,7 +28,7 @@
   var sceneElements = document.querySelectorAll('#sceneList .scene');
   var sceneListToggleElement = document.querySelector('#sceneListToggle');
   var autorotateToggleElement = document.querySelector('#autorotateToggle');
-   //var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
+  var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
 
   // Detect desktop or mobile mode.
   if (window.matchMedia) {
@@ -61,10 +61,10 @@
   }
 
   // Viewer options.
-   var viewerOpts = {
+  var viewerOpts = {
     controls: {
-       mouseViewMode: data.settings.mouseViewMode
-     }
+      mouseViewMode: data.settings.mouseViewMode
+    }
   };
 
   // Initialize viewer.
@@ -121,21 +121,21 @@
   autorotateToggleElement.addEventListener('click', toggleAutorotate);
 
   // Set up fullscreen mode, if supported.
-    if (screenfull.enabled && data.settings.fullscreenButton) {
-     document.body.classList.add('fullscreen-enabled');
+  if (screenfull.enabled && data.settings.fullscreenButton) {
+    document.body.classList.add('fullscreen-enabled');
     fullscreenToggleElement.addEventListener('click', function() {
-       screenfull.toggle();
-     });
-     screenfull.on('change', function() {
-        if (screenfull.isFullscreen) {
-         fullscreenToggleElement.classList.add('enabled');
-       } else {
-         fullscreenToggleElement.classList.remove('enabled');
-       }
-      });
-    } else {
-     document.body.classList.add('fullscreen-disabled');
-   }
+      screenfull.toggle();
+    });
+    screenfull.on('change', function() {
+      if (screenfull.isFullscreen) {
+        fullscreenToggleElement.classList.add('enabled');
+      } else {
+        fullscreenToggleElement.classList.remove('enabled');
+      }
+    });
+  } else {
+    document.body.classList.add('fullscreen-disabled');
+  }
 
   // Set handler for scene list toggle.
   sceneListToggleElement.addEventListener('click', toggleSceneList);
@@ -253,7 +253,7 @@
 
     // Create image element.
     var icon = document.createElement('img');
-    icon.src = 'img/pin2.svg';
+    icon.src = 'img/link.png';
     icon.classList.add('link-hotspot-icon');
 
     // Set rotation transform.
