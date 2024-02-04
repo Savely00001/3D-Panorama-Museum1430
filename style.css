@@ -32,6 +32,9 @@ html, body {
   top: 0;
   right: 0;
 }
+.exit > i {
+  color: #fff;
+}
 a, a:hover, a:active, a:visited {
   text-decoration: none;
   color: inherit;
