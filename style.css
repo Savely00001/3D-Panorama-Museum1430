@@ -27,11 +27,6 @@ html, body {
   background-color: #000;
   color: #fff;
 }
-.exit {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
 a, a:hover, a:active, a:visited {
   text-decoration: none;
   color: inherit;
